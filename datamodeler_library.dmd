@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="datamodeler_library" id="9BB91388-B67D-ED75-B036-BD0AB8AD8108" version="3.5">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:40:31 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9BB91388-B67D-ED75-B036-BD0AB8AD8108</designId>
+</OSDM_Design>

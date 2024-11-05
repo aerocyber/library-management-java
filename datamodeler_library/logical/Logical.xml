@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2AE8444F-B6E1-5B2C-1859-5B65104EE8DC" mainViewID="73DEF4AC-7EF2-7EE4-68A4-6A62DBF8C97B">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:40:31 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

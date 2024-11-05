@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9934E7B3-F9AC-5E2E-4C67-849CF3ABC1FE" name="reader_details">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:45:26 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reader_id" id="AC585D67-654F-64FD-9019-3C37A58065F9">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:47:10 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="4B70F685-D450-935F-622C-8B5485F68AE3">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:47:10 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="BEBB5110-8880-BC16-3C84-60A40A3B9EC5">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:47:10 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="5585FA1F-0285-B7D8-F675-77DE912E6F78">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:47:10 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="7DD14DA2-87B3-B8C0-F6A2-B4773E6A7153">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:47:10 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E96C8704-6D14-3151-19DC-00C226E04669">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:47:10 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6839C7B7-7EA8-17E5-FA22-809B9F6D412A" name="reader_details_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:47:32 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC585D67-654F-64FD-9019-3C37A58065F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

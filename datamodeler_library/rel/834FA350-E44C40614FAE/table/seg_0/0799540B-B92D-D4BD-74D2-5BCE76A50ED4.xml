@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0799540B-B92D-D4BD-74D2-5BCE76A50ED4" name="issue_details">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:50:02 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="issue_id" id="CB3D54D7-7720-A35A-53F7-19E7A16B58CE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:51:35 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reader_id" id="73365629-B7CC-7D01-2B2C-8C76C54A16FA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:51:35 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BC96FB4-B251-04CF-8294-10328DD0BA5C" referredColumn="AC585D67-654F-64FD-9019-3C37A58065F9"/>
+</associations>
+</Column>
+<Column name="book_id" id="3A2A03C7-3BDC-90D7-F4F9-3365188E5386">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:51:35 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C638AF8-AD3E-7B8E-5FA8-445E46C4D9BE" referredColumn="22B9EB83-2B04-EDB6-FC30-2E8D2B64B19E"/>
+</associations>
+</Column>
+<Column name="issue_date" id="6B981168-8381-5856-879C-54C36ED6CF5B">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:51:35 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="due_date" id="12785B1C-CB5C-CDB2-EDFE-38DDEA7721F7">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:51:35 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED0AF9BE-3E9A-6A66-7B5B-DD8B49384C70" name="issue_details_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:51:44 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB3D54D7-7720-A35A-53F7-19E7A16B58CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E755B17-3279-D02F-E4A4-8F39EE9A2086" name="issue_details_book_details_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:52:25 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A2A03C7-3BDC-90D7-F4F9-3365188E5386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E291288-B7D6-698C-D4F0-ABC5F0C396DC" name="issue_details_reader_details_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:52:25 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73365629-B7CC-7D01-2B2C-8C76C54A16FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

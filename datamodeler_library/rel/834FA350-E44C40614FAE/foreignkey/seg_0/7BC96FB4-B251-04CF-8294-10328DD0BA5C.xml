@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7BC96FB4-B251-04CF-8294-10328DD0BA5C" containerWithKeyObject="0799540B-B92D-D4BD-74D2-5BCE76A50ED4" localFKIndex="2E291288-B7D6-698C-D4F0-ABC5F0C396DC" name="issue_details_reader_details_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-11-05 00:52:25 UTC</createdTime>
+<ownerDesignName>datamodeler_library</ownerDesignName>
+<referredTableLongName>reader_details</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9934E7B3-F9AC-5E2E-4C67-849CF3ABC1FE</referredTableID>
+<keyObject>6839C7B7-7EA8-17E5-FA22-809B9F6D412A</keyObject>
+<referredKeyID>6839C7B7-7EA8-17E5-FA22-809B9F6D412A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>reader_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
